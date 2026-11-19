@@ -1,5 +1,5 @@
-#ifndef GIO_HANG_DEMO_H
-#define GIO_HANG_DEMO_H
+#ifndef GIO_HANG_H
+#define GIO_HANG_H
 
 #include <iostream>
 #include <fstream>
@@ -184,4 +184,4 @@ void destroyHashTable(VoucherHashTable& ht);
 // 4.7. Ham tra cuu mang dung chung (Phuc vu kiem tra ton kho khi Checkout)
 int findProductIndexByID(Product catalog[], int n, int productId);
 
-#endif // GIO_HANG_DEMO_H
+#endif // GIO_HANG_H
